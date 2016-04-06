@@ -1,3 +1,9 @@
+## Required Installations
+
+<a href="https://www.python.org/downloads/">Install Python 3.5 or higher</a> -- Make sure to <a href="http://i.imgur.com/SJ6ND4w.jpg">Add Python to PATH.</a>
+
+<a href="https://git-scm.com/download/win">Install Git</a> -- Make sure to <a href="http://i.imgur.com/guis7EE.png">Run Git from Windows Command Prompt</a>
+
 ## Config Juli in bot.py
 
 ```python
@@ -49,7 +55,15 @@ CHAN = "#sodapoppin"
 If you dont have the correct format, the bot wont connect properly. 
 
 --------------------
-## Adding Simple Commands
+
+## Run the Software
+
+After you've installed the required Python & Git installtions as well as adding your configuration information to bot.py, right click on Juli-TwitchBot folder that you've downloaded and select "Git Bash Here" and enter this command to run the bot:
+
+```python bot.py```
+
+
+## Adding Simple Chat Commands
 
 ```python
 class bot:
